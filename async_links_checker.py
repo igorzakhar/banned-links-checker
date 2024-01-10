@@ -105,6 +105,8 @@ def print_results(results, tld, allowed_domains):
 
 
 async def main():
+    logging.getLogger('charset_normalizer').setLevel(logging.WARNING)
+
     logging.basicConfig(
         format='%(funcName)s \u2192  %(asctime)s %(message)s',
         level=logging.DEBUG,
