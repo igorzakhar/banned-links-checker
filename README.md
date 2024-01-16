@@ -65,14 +65,14 @@ GraalVM → https://www.graalvm.org/
 
 1. Скопируйте репозиторий в текущий каталог. Воспользуйтесь командой:
 ```bash
-$ git clone https://github.com/igorzakhar/forbidden-links-checker.git
+$ git clone https://github.com/igorzakhar/banned-links-checker.git
 ```
 
-После этого программа будет скопирована в каталог `forbidden-links-checker`.
+После этого программа будет скопирована в каталог `banned-links-checker`.
 
 2. Создайте и активируйте виртуальное окружение:
 ```bash
-$ cd forbidden-links-checker # Переходим в каталог с программой
+$ cd banned-links-checker # Переходим в каталог с программой
 $ python3 -m venv my_virtual_environment # Создаем виртуальное окружение
 $ source my_virtual_environment/bin/activate # Активируем виртуальное окружение
 ```
